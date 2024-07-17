@@ -16,6 +16,20 @@
   }
 }
 
+.nav-link {
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.nav-link:hover {
+  transform: translateY(-2px);
+}
+
+.active-link {
+  background-color: #f97316; /* Warna yang sama dengan bg-orange-800 */
+  border-radius: 9999px; /* Full rounded */
+}
+
+/* 
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
@@ -30,4 +44,4 @@ body {
   .text-balance {
     text-wrap: balance;
   }
-}
+} */
