@@ -5,7 +5,7 @@ import Navbar from "@/components/Navbar";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Rifinterior - Interior Design",
+  title: "Rifenterior - Interior Design",
   description:
     "I'm Arif and i am interior designer with a passion for creating beautiful and comfortable living spaces.",
 };
